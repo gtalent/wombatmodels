@@ -31,14 +31,14 @@ SpriteSheetImage
 	SrcBounds Bounds
 
 SpriteSheet
-	TilesWide         int
-	TilesHigh         int
-	TileWidth         int
-	TileHeight        int
-	SrcFile           string
-	Images            map[int]SpriteSheetImage
-	ImageIdIterator   int
-	RecycledImageIds  []int
+	TilesWide        int
+	TilesHigh        int
+	TileWidth        int
+	TileHeight       int
+	SrcFile          string
+	Images           map[int]SpriteSheetImage
+	ImageIdIterator  int
+	RecycledImageIds []int
 
 Image
 	# Path to the sprite sheet the image is from
